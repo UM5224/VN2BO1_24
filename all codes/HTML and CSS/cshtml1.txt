@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>first web page</title>
+    <style>
+      img {
+        width: 500px;
+        border-radius: 250px;
+        float: left;
+        margin-right: 10px;
+      }
+      p.username {
+        font-weight: bolder;
+        float: inherit;
+      }
+    </style>
+  </head>
+  <body>
+     <h1>html</h1> 
+     <img src="images/Screenshot (11).png" alt="">
+    <p class="username">that is a house</p>
+    <p>present in india</p>
+  </body>
+</html>

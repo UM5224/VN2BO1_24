@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>backgrond media color</title>
+    <style>
+        body {
+            background-color: chocolate;
+        }
+        @media only screen and (max-width : 1000px) {
+            body {
+                background-color: cornflowerblue;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <h3>css media</h3>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas commodi
+      dolor tenetur beatae odit quidem omnis officia, delectus, dicta sint
+      nostrum magnam numquam amet. Ipsum laboriosam harum soluta doloremque
+      quaerat?
+    </p>
+  </body>
+</html>

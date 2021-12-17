@@ -1,0 +1,21 @@
+create table diagrams(
+dname varchar(43),
+dshape varchar(42),
+dmodel int,
+dsides int,
+dcolour varchar(43));
+
+insert into diagrams values('traingle','shapeA',32,3,'red');
+insert into diagrams values('rectangle','shapeB',33,4,'blue');
+insert into diagrams values('traingle','shapeA',32,3,'red');
+
+
+select * from diagrams
+
+alter table diagrams add column dtype varchar(20)
+
+delete from diagrams where dmodel=33
+
+update diagrams set dshape='shapeF' where dsides =4
+
+drop table diagrams

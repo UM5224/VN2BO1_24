@@ -1,0 +1,24 @@
+create table ocean(
+oname varchar(20),
+osize varchar(20),
+olength int,
+odigit int,
+ovalue int);
+
+
+insert into ocean values('indian','big',1000,1,45);
+
+insert into ocean values('arabian','huge',2000,2,50);
+
+insert into ocean values('black','small',3000,3,60);
+
+select * from ocean
+
+alter table ocean add column oplace varchar(10)
+
+update ocean set oplace='near india' where odigit=1
+
+delete from ocean where osize='small'
+
+drop table ocean
+

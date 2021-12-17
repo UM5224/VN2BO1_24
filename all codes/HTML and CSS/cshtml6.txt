@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <style>
+      img{
+        width: 500px;
+        border-radius: 250px;
+        float: left;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>moderndesigns</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis ipsum 
+        officiis cum enim repellendus aliquid molestiae dolorem voluptate voluptatibus? Atque hic similique 
+        amet asperiores provident? Fuga expedita culpa consequuntur!</p>
+      <h2>typesofdesigns</h2>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi architecto repudiandae a aspernatur. 
+      Dolorem voluptatem laudantium ipsa illum blanditiis, veritatis adipisci consectetur sed totam ipsam facilis
+       nostrum iste eum id.
+       <br>
+       <br>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facere tempora ut, nobis hic minima 
+       exercitationem accusantium corporis. Fugit, reprehenderit atque. Quo porro, omnis animi fugit blanditiis beatae
+        vel expedita.
+        <img src="images/Screenshot (11).png" alt="house design">
+  </body>
+</html>

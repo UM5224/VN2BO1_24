@@ -1,0 +1,30 @@
+create table country(
+cname varchar(50),
+ctype varchar(50),
+cnumber int,
+ccolor varchar(50),
+clanguage varchar(50));
+
+insert into country values('india','demo',12,'red','hindi');
+
+insert into country values('china','repo',13,'blue','chinese');
+insert into country values('nepal','demo',14,'green','nepali');
+
+select * from country 
+
+alter table country add column ccode varchar(50);
+
+
+update country set ccolor='brown'where ccolor='red'
+
+
+update country set ccode='9887'where ccolor='red'
+
+update country set ccode='6539'where ccolor='green'
+
+update country set ccode='4325'where ccolor='blue'
+
+
+drop table country
+
+delete from country where ctype='repo'
