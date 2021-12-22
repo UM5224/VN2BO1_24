@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the 2021 frontend developer</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="#">Remember<span>That</span></a>
+            <img id="mobile-cta" class="mobile-menu" src="images/images2/menu.svg"open navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-exit" src="images/images2/exit.svg" alt="close navigation">
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <ul class="secondary-nav">
+                    <li><a href="#">contact</a></li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Its nitty &amp; gritty</p>
+                <h1>A task app that dosen't sink</h1>
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">try for free</a>
+                    <a href="#" class="watch vedio-cta">
+                        <img src="images/images2/watch.svg" alt="watch a vedio">watch a vedio
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="images/images2/illustration.svg" class="hero-img" alt="illustration">
+
+    </section>
+</body>
+</html>

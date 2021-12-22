@@ -1,0 +1,23 @@
+create table trees(
+tname varchar(30),
+tlocation varchar(30),
+tnumber int,
+tlength int,
+tspace varchar(30))
+
+
+insert into trees values('neem','north',20,12,'top');
+
+insert into trees values('mango','south',30,10,'top');
+
+insert into trees values('groundnut','east',40,5,'bottom');
+
+select * from trees
+
+drop table trees
+
+update trees set tlength=50 where tnumber=20
+
+alter table trees add column tfind boolean
+
+delete from trees where tname ='neem'

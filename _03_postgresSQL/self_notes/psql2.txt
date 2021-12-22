@@ -1,0 +1,22 @@
+create table furniture(
+chair varchar(25),
+bag varchar(25),
+numb int,
+switch varchar(25),
+fans int)
+
+insert into furniture values('chairA','bagB',3455,'switchC',625346);
+
+insert into furniture values('chairB','bagD',85478,'switchD',75285);
+
+insert into furniture values('chairC','bagE',8274528,'switchE',38745);
+
+select * from furniture
+
+delete from furniture where bag='bagB'
+
+alter table furniture add column bulp varchar(20)
+
+update furniture set bag='bagF' where bag='bagA'
+
+drop table furniture
