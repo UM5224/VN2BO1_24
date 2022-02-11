@@ -1,0 +1,4 @@
+this is file in python file handling
+python programming
+hello python
+hello python

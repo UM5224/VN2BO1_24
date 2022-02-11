@@ -1,0 +1,11 @@
+f = open(r"this.txt", "rb")
+f.seek(23)
+print("Cursor Position :",f.tell())
+data = f.read()
+print(data)
+
+f = open(r"mass.txt", "rb")
+f.seek(-10,2)
+print("Cursor Position :",f.tell())
+data2 = f.read()
+print(data2)
